@@ -28,7 +28,8 @@ with two classes:
 | 2 | Non-Forest |
 
 To reproduce results, you will need to either:
-- Request access to the asset at `users/mariastorch/meg2022_points_only`
+- Get access to the asset at `users/mariastorch/meg2022_points_only`
+- Use the geojson in this repo
 ## Methodology
 - **Compositing:** Dry-season median composite (November–February) to minimize
   cloud cover 
