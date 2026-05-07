@@ -37,7 +37,7 @@ To reproduce results, you will need to either:
 - **Classifier:** Random Forest (100 trees) via `ee.Classifier.smileRandomForest`
 - **Validation:** 5-fold cross-validation with random fold assignment
 - **Change detection:** Pixel-wise comparison of 2021 and 2022 classified maps;
-  deforestation defined as Forest (2021) → Non-Forest (2022)
+  deforestation defined as Forest (2021) → Non-Forest (2022). This can be adjusted to monthly or quarterly.
 
 ## Outputs
 All outputs export to Google Drive under the folder `GEE_Meghalaya`. Outputs a tif files for classification in both periods as well as deforestation detection (points that are classified as forest in the first period and not forest in the second period)
